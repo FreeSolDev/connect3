@@ -73,7 +73,6 @@ window.Connect3={
                   $(".connect_3_button").hide()
                   $(".disconnect_3_button").show()
                   toasts({type:"good",message:`Succesfully Connected ${Connect3.PublicKey.slice(0, 10)}...`})
-                  //toasts({type:"promise",request:dosomeshitthatneedsxyz,params:{age:4,name:"John"}})
                   $("#connect_3_cover").fadeOut()
                   $("#connect_3_chooser").fadeOut()
                   if(onconnect){
